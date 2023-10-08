@@ -12,6 +12,7 @@ import { LocationComponent } from './components/location/location.component';
 import { MusicComponent } from './components/music/music.component';
 import { OthersComponent } from './components/others/others.component';
 import { HomeXvComponent } from './components/home-xv/home-xv.component';
+import { CountdownComponent } from './countdown/countdown.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HomeXvComponent } from './components/home-xv/home-xv.component';
     LocationComponent,
     MusicComponent,
     OthersComponent,
-    HomeXvComponent
+    HomeXvComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
