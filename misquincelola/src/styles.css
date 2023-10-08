@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MiFuenteDos'; /* Nombre de la fuente */
+    src: url('/assets/fonts/mifuentedos.ttf'); /* Ruta a tu archivo de fuente */
+    /* Puedes agregar más formatos de fuente aquí (e.g., woff, woff2) si los tienes */
+  }
+
